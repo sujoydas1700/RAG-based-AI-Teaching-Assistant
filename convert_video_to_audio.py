@@ -10,5 +10,3 @@ for file in files:
   file_name = file_name.replace("-","_").lower()
   # print(tutorial_num,file_name)
   subprocess.run(["ffmpeg", "-i", f"videos/{file}", f"audios/{tutorial_num}_{file_name}.mp3"])
-
-

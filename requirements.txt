@@ -1,0 +1,7 @@
+git+https://github.com/openai/whisper.git
+FlagEmbedding
+pandas
+numpy
+joblib
+scikit-learn
+langchain-ollama
